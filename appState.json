@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "testAp1Ind.js",
         "cursor": {
-          "lineNumber": 18,
-          "column": 14
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -21,7 +21,16 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [],
+        "testCases": {
+          "f4d04c79-6926-4cbf-80bc-bd5396f078ca": {
+            "id": "f4d04c79-6926-4cbf-80bc-bd5396f078ca",
+            "name": "Test event",
+            "functionId": "9c3a9a58-4dd3-4844-993c-75d833245cb2",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -325,7 +334,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585711672719
+    "lastSave": 1585712222633
   },
   "VCS_STATE": {
     "provider": "GitHub",
